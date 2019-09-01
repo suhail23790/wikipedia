@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="194353" started-at="2019-09-01T11:41:03 IST" finished-at="2019-09-01T11:44:18 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="194353" started-at="2019-09-01T11:41:03 IST" finished-at="2019-09-01T11:44:18 IST">
+      <class name="tests.Selenium">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Selenium@71423665]" name="setUp" is-config="true" duration-ms="27396" started-at="2019-09-01T11:41:03 IST" finished-at="2019-09-01T11:41:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyThatLinksInExternalLinksWork()[pri:1, instance:tests.Selenium@71423665]" name="verifyThatLinksInExternalLinksWork" duration-ms="73180" started-at="2019-09-01T11:41:31 IST" finished-at="2019-09-01T11:42:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatLinksInExternalLinksWork -->
+        <test-method status="PASS" signature="clickOnOxygenLinkInPeriodTblAndValidateThatItIsFeaturedArticle()[pri:2, instance:tests.Selenium@71423665]" name="clickOnOxygenLinkInPeriodTblAndValidateThatItIsFeaturedArticle" duration-ms="1591" started-at="2019-09-01T11:42:44 IST" finished-at="2019-09-01T11:42:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnOxygenLinkInPeriodTblAndValidateThatItIsFeaturedArticle -->
+        <test-method status="FAIL" signature="takeScreenshotOfRightHandBox()[pri:3, instance:tests.Selenium@71423665]" name="takeScreenshotOfRightHandBox" duration-ms="990" started-at="2019-09-01T11:42:46 IST" finished-at="2019-09-01T11:42:47 IST">
+          <exception class="java.awt.image.RasterFormatException">
+            <message>
+              <![CDATA[(y + height) is outside of Raster]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.awt.image.RasterFormatException: (y + height) is outside of Raster
+at sun.awt.image.ByteInterleavedRaster.createWritableChild(Unknown Source)
+at java.awt.image.BufferedImage.getSubimage(Unknown Source)
+at tests.Selenium.takeScreenshotOfRightHandBox(Selenium.java:111)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.awt.image.RasterFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOfRightHandBox -->
+        <test-method status="PASS" signature="countOfPDFLinksInReferences()[pri:4, instance:tests.Selenium@71423665]" name="countOfPDFLinksInReferences" duration-ms="89051" started-at="2019-09-01T11:42:47 IST" finished-at="2019-09-01T11:44:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countOfPDFLinksInReferences -->
+        <test-method status="PASS" signature="verifySecondOptionIsPlutoniumInSearchBox()[pri:5, instance:tests.Selenium@71423665]" name="verifySecondOptionIsPlutoniumInSearchBox" duration-ms="579" started-at="2019-09-01T11:44:16 IST" finished-at="2019-09-01T11:44:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySecondOptionIsPlutoniumInSearchBox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Selenium@71423665]" name="tearDown" is-config="true" duration-ms="1507" started-at="2019-09-01T11:44:16 IST" finished-at="2019-09-01T11:44:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Selenium -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
